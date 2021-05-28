@@ -1,0 +1,65 @@
+{
+  "name": "03.Proxy.Main",
+  "description": "TISCO Template",
+  "main": "03.Proxy.Main.xaml",
+  "dependencies": {
+    "TISCO.lib.AS400": "[1.0.4]",
+    "TISCO.Lib.Collaboration": "[1.0.3]",
+    "TISCO.Lib.Util": "[1.0.3]",
+    "UiPath.AmazonWebServices.Activities": "[1.2.4]",
+    "UiPath.Excel.Activities": "[2.9.3]",
+    "UiPath.System.Activities": "[20.4.4]",
+    "UiPath.UIAutomation.Activities": "[20.4.3]",
+    "UiPath.WebAPI.Activities": "[1.6.0]"
+  },
+  "webServices": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "21.4.0.0",
+  "projectVersion": "1.0.0.1",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": [
+        "03.Process.Test.xaml",
+		"03.Process.Main.xaml",
+		"03.Proxy.Test.xaml"
+      ]
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "80b4a68a-f01a-4e68-994f-7c73c6adc030",
+        "fileName": "TestCase.xaml"
+      }
+    ]
+  },
+  "arguments": {
+    "input": [],
+    "output": []
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "03.Proxy.Main.xaml",
+      "uniqueId": "f4b81dd8-5720-4c7e-9c85-9ae7936205e5",
+      "input": [],
+      "output": []
+    }
+  ]
+}
